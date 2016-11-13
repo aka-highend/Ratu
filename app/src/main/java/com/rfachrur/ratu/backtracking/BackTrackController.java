@@ -1,15 +1,12 @@
 package com.rfachrur.ratu.backtracking;
 
-/**
- * Created by FACHRUR on 10/6/2016.
- *
- */
+
 
 public class BackTrackController {
 
-    int[] column;
-    int[][] solutions;
-    int numberOfSolutions;
+    private int[] column;
+    private int[][] solutions;
+    private int numberOfSolutions;
 
     public BackTrackController(int n) {
         column = new int[n + 1];
@@ -22,7 +19,7 @@ public class BackTrackController {
 
     public int[][] getSolutions() { return solutions; }
 
-    void SolveQueenBackTrack(int n, int i) {
+    private void SolveQueenBackTrack(int n, int i) {
         int j;
         if (Promising(i)) {
             if (i == n) {
@@ -40,7 +37,7 @@ public class BackTrackController {
         }
     }
 
-    boolean Promising(int i) {
+    private boolean Promising(int i) {
         int k;
         boolean _switch;
         k = 1;

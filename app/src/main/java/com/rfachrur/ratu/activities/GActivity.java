@@ -18,10 +18,7 @@ import com.rfachrur.ratu.geneticsalgorithm.ObjectReference;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Created by FACHRUR on 10/6/2016.
- *
- */
+
 
 public class GActivity extends AppCompatActivity {
 

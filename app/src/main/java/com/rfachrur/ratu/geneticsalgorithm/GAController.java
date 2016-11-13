@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-/**
- * Created by FACHRUR on 10/6/2016.
- *
- */
+
 
 public class GAController {
 
@@ -40,7 +37,7 @@ public class GAController {
         Collections.sort(initPopulation.value, new FitComparator());
     }
 
-    public final void Crossover(ObjectReference<ArrayList<Chromosome>> parents, double probability) {
+    private void Crossover(ObjectReference<ArrayList<Chromosome>> parents, double probability) {
         ArrayList<Chromosome> offspring = new ArrayList<>();
         for (int i = 0; i < parents.value.size(); i++) {
             if (Assay(probability)) //if the chance is to crossover
@@ -110,7 +107,7 @@ public class GAController {
         return selection;
     }
 
-    public final void Mutate(ObjectReference<ArrayList<Chromosome>> parents, double probability) {
+    private void Mutate(ObjectReference<ArrayList<Chromosome>> parents, double probability) {
         ArrayList<Chromosome> offsprings = new ArrayList<>();
 
         for (int i = 0; i < parents.value.size(); i++) {
@@ -142,7 +139,7 @@ public class GAController {
         return random.nextDouble() < probability;
     }
 
-    public final void CalcFitness(ObjectReference<ArrayList<Chromosome>> chromosome, ObjectReference<Integer> totalFitness) {
+    private void CalcFitness(ObjectReference<ArrayList<Chromosome>> chromosome, ObjectReference<Integer> totalFitness) {
         int collisions = 0;
         totalFitness.value = 0;
         for (int k = 0; k < chromosome.value.size(); k++) {

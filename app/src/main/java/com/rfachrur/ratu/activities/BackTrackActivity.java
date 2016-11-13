@@ -14,10 +14,7 @@ import android.widget.TextView;
 import com.rfachrur.ratu.R;
 import com.rfachrur.ratu.backtracking.BackTrackController;
 
-/**
- * Created by FACHRUR on 10/6/2016.
- *
- */
+
 
 public class BackTrackActivity extends AppCompatActivity {
 
