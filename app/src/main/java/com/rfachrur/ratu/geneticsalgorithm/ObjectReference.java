@@ -1,4 +1,4 @@
-package com.rfachrur.nqueenproblem.geneticsalgorithm;
+package com.rfachrur.ratu.geneticsalgorithm;
 
 /**
  * Created by FACHRUR on 10/6/2016.

@@ -1,4 +1,4 @@
-package com.rfachrur.nqueenproblem.activities;
+package com.rfachrur.ratu.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,10 +10,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.rfachrur.nqueenproblem.R;
-import com.rfachrur.nqueenproblem.geneticsalgorithm.Chromosome;
-import com.rfachrur.nqueenproblem.geneticsalgorithm.GAController;
-import com.rfachrur.nqueenproblem.geneticsalgorithm.ObjectReference;
+import com.rfachrur.ratu.R;
+import com.rfachrur.ratu.geneticsalgorithm.Chromosome;
+import com.rfachrur.ratu.geneticsalgorithm.GAController;
+import com.rfachrur.ratu.geneticsalgorithm.ObjectReference;
 
 import java.util.ArrayList;
 import java.util.Arrays;

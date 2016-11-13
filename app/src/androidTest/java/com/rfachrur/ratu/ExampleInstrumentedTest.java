@@ -1,4 +1,4 @@
-package com.rfachrur.nqueenproblem;
+package com.rfachrur.ratu;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

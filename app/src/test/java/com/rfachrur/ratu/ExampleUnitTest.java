@@ -1,4 +1,4 @@
-package com.rfachrur.nqueenproblem;
+package com.rfachrur.ratu;
 
 import org.junit.Test;
 

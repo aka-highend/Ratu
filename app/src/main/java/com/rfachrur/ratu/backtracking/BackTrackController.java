@@ -1,4 +1,4 @@
-package com.rfachrur.nqueenproblem.backtracking;
+package com.rfachrur.ratu.backtracking;
 
 /**
  * Created by FACHRUR on 10/6/2016.

@@ -1,4 +1,4 @@
-package com.rfachrur.nqueenproblem.geneticsalgorithm;
+package com.rfachrur.ratu.geneticsalgorithm;
 
 import java.util.ArrayList;
 import java.util.Collections;

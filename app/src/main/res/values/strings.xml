@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NQueenProblem</string>
+    <string name="app_name">Ratu</string>
     <string name="genetic_algorithm">Genetics Algorithm</string>
     <string name="backtracking">Back Tracking</string>
     <string name="_0_state">0 State</string>
