@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rfachrur.nqueenproblem.activities.BackTrackActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_height="300sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/board"/>
+
+        <ImageView
+            android:id="@+id/queen0"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="0sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+        <ImageView
+            android:id="@+id/queen1"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="38sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+        <ImageView
+            android:id="@+id/queen2"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="76sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+        <ImageView
+            android:id="@+id/queen3"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="114sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+        <ImageView
+            android:id="@+id/queen4"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="152sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+        <ImageView
+            android:id="@+id/queen5"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="190sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+        <ImageView
+            android:id="@+id/queen6"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="228sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+        <ImageView
+            android:id="@+id/queen7"
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_marginLeft="266sp"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/vec_queen"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textSize="28sp"
+        android:textColor="@android:color/black"
+        android:text="@string/_0_state"/>
+
+    <Button
+        android:id="@+id/btnShowRandomAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:elevation="3sp"
+        android:text="@string/check_random_answer"/>
+
+</LinearLayout>

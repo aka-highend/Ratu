@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NQueenProblem</string>
+    <string name="genetic_algorithm">Genetics Algorithm</string>
+    <string name="backtracking">Back Tracking</string>
+    <string name="_0_state">0 State</string>
+    <string name="check_random_answer">Check Random Answer</string>
+</resources>
